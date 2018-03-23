@@ -2,11 +2,18 @@
 
 session_start();
 
+$stock = $_POST['stock'];
+
 $bd = "host=localhost port=5432 dbname=faispaslepoireau! user=admin password=admin";
 
 $connect = pg_connect($bd);
 
-$requetestock = pg_fetch_array(pg_query("SELECT sto_qte FROM stock"));
+$query = pg_fetch_array(pg_query("SELECT sto_qte FROM stock"));
+
+
+
+//$checkproduct = pg_fetch_array(pg_query("SELECT pro_id FROM produit WHERE pro_id = 5"));
+
 
 ?>
 
