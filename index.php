@@ -1,4 +1,14 @@
+<?php
 
+session_start();
+
+$bd = "host=localhost port=5432 dbname=faispaslepoireau! user=admin password=admin";
+
+$connect = pg_connect($bd);
+
+$requetestock = pg_fetch_array(pg_query("SELECT sto_qte FROM stock"));
+
+?>
 
 
 
