@@ -1,3 +1,8 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +22,7 @@
    <section class="navbar-top container-fluid">
       <div class="row">
          <div class="col-md-12 menu-logo">
-            <img class="logo" src="/img/logo.png" alt="Logo de FaisPasLPoireau">
+         <img src="img/logo.png" class="logo" alt="">
          </div>
       </div>
    </section>
